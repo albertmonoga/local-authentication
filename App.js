@@ -3,7 +3,6 @@ import AuthScreen from "./src/screens/AuthScreen";
 import PaymentScreen from "./src/screens/PaymentScreen";
 import {useEffect, useState} from "react";
 import * as LocalAuthentication from 'expo-local-authentication'
-import {SecurityLevel} from "expo-local-authentication";
 
 export default function App() {
   const [isBiometricSupported, setIsBiometricSupported] = useState(false)
